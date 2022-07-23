@@ -1,0 +1,201 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey", "yo", "hihi"],
+         "responses": ["Hello!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["bye", "Goodbye", "I am Leaving", "Have a Good day", "no"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help", "thank you so much"],
+        "responses": ["Happy to help!", "My pleasure", "You're most welcome!"]
+        },
+        {"tag": "about",
+        "patterns": ["Who are you?", "What are you?", "Who you are?", "Are you human", "Are you a robot"],
+        "responses": ["I'm NutriBot, your bot assistant", "I'm NutriBot, an Artificial Intelligent bot"]
+        },
+        {"tag": "name",
+        "patterns": ["what is your name", "what should I call you", "whats your name?"],
+        "responses": ["You can call me NutriBot.", "I'm NutriBot!", "Just call me as NutriBot"]
+        },
+        {"tag": "help",
+        "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "I need a support", "I need a help", "support me please", "i'm not feeling well", "yes"],
+        "responses": ["Tell me how can i assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"]
+        },
+        {"tag": "language",
+        "patterns": ["Which languages can you speak"],
+        "responses": ["I'm only able to speak english, so sorry for any inconvenience caused!"]
+        },
+        {"tag": "function",
+        "patterns": ["what can you do for me?", "what do you do?", "what is your function?", "what service do you provide?"],
+        "responses": ["I can provide you some food based dietary guideline, dietary supplement guideline and some healthy lifestyle tips! =D"]
+        },
+        {"tag": "negative",
+        "patterns": ["fuck you", "are you stupid", "you such an idiot", "go to hell", "go to die"],
+        "responses": ["Don't be rude!"]
+        },
+        {"tag": "lifestyle",
+         "patterns": ["Do you have any healthy lifestyle tips", "Do you have any ways to get healthier"],
+         "responses": ["Yes of course, this is what i do! There are few tips to give you: 1. Eat a healthy diet, 2. Consume less salt and sugar, 3. Be active, 4. Drink only safe water"],
+         "context_set": ""
+        },
+        {"tag": "payment",
+        "patterns": ["What are your fees", "How much do i need to pay", "Should i pay you", "Should i pay for this services"],
+        "responses": ["There is no payment needed, free of charge service provided here!"],
+        "context_set": ""
+        },
+        {"tag": "blood-pressure",
+         "patterns": ["What supplement should i consume if i have high blood pressure", "what food i cannot take if i have high blood pressure", "what should i do if i have high blood pressure"],
+         "responses": ["You should stop consuming food that high in sodium, fat and processed meat. For dietary supplement suggestion, you can consume Omega Fish Oil, Lecithin-E and Coenzyme Q10!"],
+         "context_set": ""
+        },
+        {"tag": "high-blood-pressure",
+        "patterns": ["What is high blood pressure", "high blood pressure"],
+        "responses": ["High blood pressure, also called hypertension, is blood pressure that is higher than normal. The higher your blood pressure levels, the more risk you have for other health problems, such as heart diseases"],
+        "context_set": ""
+        },
+        {"tag": "bone-density",
+        "patterns": ["What supplement can i eat if i have osteoporosis"],
+        "responses": ["You can start consuming food that rich in calcium such as milk, cheese and other dairy foods. For supplement side, you can consider start taking calcium, magnesium and vitamin D!"],
+        "context_set": ""
+        },
+        {"tag": "kidney",
+        "patterns": ["I have kidney stone, what can i do"],
+        "responses": ["Kidney stones (also called renal calculi, nephrolithiasis or urolithiasis) are hard deposits made of minerals and salts that form inside your kidneys. To prevent uric acid stones, cut down on high-purine foods such as red meat, organ meats, beer/alcoholic bevarages, meat-based gravies, sardines, anchovies and shellfish. This is because high purine intake leads to higher production of uric acid and a larger acid load for the kidneys to excrete. Higher uric acid excretion leads to more acidic urine. The high acid concentration of the urine makes it easier for uric acid stones to form"],
+        "context_set": ""
+        },
+        {"tag": "diabetes",
+        "patterns": ["what is diabetes", "what can i do if i have diabetes", "do you know about diabetes"],
+        "responses": ["Diabetes is a metabolic disease that causes high blood sugar.With diabetes, your body either doesn't make enough insulin or can't effectively use the insulin it does make. Untreated high blood sugar from diabetes can damange your nerves, eyes, kidneys, and other organs. Diabetes patient are not encourage to take foods such as white bread, rice, and pasta as those foods are high in card and processed foods. For supplement wise, consume fiber can help in reducing blood sugar level"],
+        "context_set": ""
+        },
+        {"tag": "constipation",
+        "patterns": ["what can i do if i have constipation problem", "i have a hard time to pass motion", "What should I consume if I am experiencing constipation"],
+        "responses": ["Constipation could occur due to the lack of fibre or insufficient water intake. It is important to eat at least four to five servings of fruits and vegetables daily to ensure a sufficient intake of fibre. You could also consider taking Nutrilite Concentrated Fruits and Vegetables or Nutri Fibre Blend, which contains both soluble and insoluble fibre to supplement your diet."],
+        "context_set": ""
+        },
+        {"tag": "coq10-info",
+        "patterns": ["what is coenzyme q10", "what is coq10", "coenzyme q10", "coq10"],
+        "responses": ["Coenzyme Q10 (CoQ10) is a nutrient that occurs naturally in the body. CoQ10 is also in many foods we eat. CoQ10 acts as an antioxidant, which protects cells from damage and plays an important part in the metabolism. CoQ10 supplments can lower blood pressure slightly."],
+        "context_set": ""
+        },
+        {"tag": "lecithin-e-info",
+        "patterns": ["what is lecithin e", "lecithin-e"],
+        "responses": ["Lecithin-E uses both lecithin and vitamin E. It is useful against the damages provoked to your cells by oxidation. Lecithin, is an emulsifer, that help the body digest vitamin E and assists with better nutrient absorption"],
+        "context_set": ""
+        },
+        {"tag": "omega-info",
+        "patterns": ["What is the function of omega fish oil", "how omega fish oil help me", "do you know what is omega", "what is fish oil"],
+        "responses": ["Omega-3 fish oil contains both docosahexaenoic acid (DHA) and eicosapentaenoic acid (EPA). Omega-3 fatty acids are essential nutrients that are important in preventing and managing heart disease.Omega-3 fatty acids are one of the good types of fat. They may help lower the risk of heart disease, depression, dementia, and arthritis. Your body can't make them. You have to eat them or take supplements."],
+        "context_set": ""
+        },
+        {"tag": "vitamin-d-info",
+        "patterns": ["What role does vitamin D play in my overall health", "What is vitamin d"],
+        "responses": ["Vitamin D is an important part of staying healthy. It helps your body absorb calcium, and it is needed for bone growth, according to the National Institutes of Health . Vitamin D also helps muscles to move, nerves to carry messages from the brain throughout the body and support the immune system in fighting bacteria and viruses. Talk to your doctor for more information about the role vitamin D plays in your body."],
+        "context_set": ""
+        },
+        {"tag": "vitamin-c-info",
+        "patterns": ["what is vitamin c", "what is the function of vitamin c", "how vitamin c helps in covid 19"],
+        "responses": ["Vitamic C, also know as ascorbic acid, is necessary for growth, development and repair of all body tissues. Vitamin C is one of many antioxidants that can protect against damage caused by harmful molecules called free radicals, as well as toxic chemicals and pollutants like cigrate smoke"],
+        "context_set": ""
+        },
+        {"tag": "vitamin-b-info",
+        "patterns": ["what is vitamin b", "vitamin b"] ,
+        "responses": ["B vitamins play a vital role in maintaining good health and well-being. As the building blocks of a healthy body, B vitamins have a direct impact on your energy levels, brain function, and cell metabolism"],
+        "context_set": ""
+        },
+        {"tag": "vitamin-a-info",
+        "patterns": ["Vitamin A can't give you superpowers of night vision or cure your dependence on contact lenses, but eating an adequate amount will support eye health. Vitamin A also stimulates the production and activity of white blood cells, takes part in remodeling bone, help maintain healthy endothelial cells, and regulates cell growth and division such as needed for reproduction"] ,
+        "responses": [],
+        "context_set": ""
+        },
+        {"tag": "iron-info",
+        "patterns": ["what is iron in our body"] ,
+        "responses": ["Iron is a mineral that is naturally present in many foods, added to some food products, and available as a dietary supplement. Iron is an essential component of hemoglobin, an erythrocyte (red blood cell) protein that transfers oxygen from lungs to the tissues"],
+        "context_set": ""
+        },
+        {"tag": "folic-acid-info",
+        "patterns": ["what is folic acid"] ,
+        "responses": ["Folic acid is the synthetic form of folate, also called vitamin B-9, is a B vitamin that naturally occurs in certain foods. Folate helps make DNA and other genetic material and it is especially important in prenatal health."],
+        "context_set": ""
+        },
+        {"tag":"vitamins-types",
+        "patterns":["What are the different types of vitamins","Do vitamin have different type of category", "there is how many types of vitamins"],
+        "responses":["Vitamins are divided into two categories: fat-soluble and water-soluble.The water-soluble group includes: B vitamins (1, 2, 3, 5, 6, 8, 9 and 12) and vitamin C and they present the following characteristics: 1) They dissolve in water. 2)They are not stored in the organism. 3) Excess amounts are excreted through urine. 4)They are destroyed when foods are cooked or boiled. Fat-soluble vitamins include A, D, E and K, and present the following characteristics:1) They dissolve in fat.2) They can be stored in the body. 3) When they accumulate, they can cause problems."],
+        "context_set": "" 
+        },
+        {"tag":"vitamins-function", 
+        "patterns":["what role do vitamins play", "what is vitamins"],
+        "responses":["Vitamins have multiple functions and are essential to your well-being and to maintain normal body functions (good eyesight, energy levels, cell growth, bone health, a healthy immune system, blood coagulation, etc.). Your body needs sufficient vitamins to function properly."],
+        "context_set":""        
+        },
+        {"tag":"consultation", 
+        "patterns":["Should i take this supplements", "what is the amount of supplement i need for every day","how much tablet i need to have daily for this supplement", "do you recommend to take this supplement", "do you think i need this supplement", "Where can I find out how much of each vitamin and mineral I need?"],
+        "responses":["If you are thinking of adding vitamins and/or minerals in your diet, the following will help you make the choices that are best suited for you: 1. Ask your pharmacist 2. Take the recommended dose of supplement every day according to the advice of your pharmacist or the manufacturer"],
+        "context_set":""        
+        },
+        {"tag":"futher-assistance", 
+        "patterns":["alright", "no problem", "ok", "okay", "sure", "oh", "it's ok", "i see"],
+        "responses":["You can continue to chat with me if you still have any enquiry about nutrition, I will do my best to help you!"],
+        "context_set":""        
+        },
+        {"tag":"doctor-assistance", 
+        "patterns":["head pain", "leg pain", "hand pain", "knee pain", "eye pain", "teeth pain" ,"tooth pain"],
+        "responses":["I'm afraid that I cannot provide guidance in this matter, please consult professional medical doctor regarding this!"],
+        "context_set":""        
+        },
+        {"tag":"dietary-supplement", 
+        "patterns":["what is a dietary supplement"],
+        "responses":["A dietary supplement is a product intended for ingestion that, among other requirements, contains a dietary ingredient intended to supplement the diet. "],
+        "context_set":""        
+        },
+        {"tag": "covid",
+        "patterns": ["What supplement can i take during this covid-19 pandemic", "How can i boost my immune system during this covid-19 pandemic", "what can i do in this pandemic", "What supplement can i take during this covid 19 pandemic"],
+        "responses": ["You can consume more vitamin c to boost your immune system. Besides that, drink more water a have a healthy diet can helps to boost our body immune system as well"],
+        "context_set": ""
+        },
+        {"tag": "pregnant",
+        "patterns": ["Which vitamins and minerals should pregnant women take", "I'm pregnant, do you have any idea what vitamins should i take", "do you know which vitamins and minerals should pregnant women take"],
+        "responses": ["According to Dietary Reference Intakes for Japan (2015 edition), pregnant women are recommended to increase their intake of vitamins and minerals such as vitamin A, vitamin D, folic acid, and iron in comparison to women who are not pregnant."],
+        "context_set": ""
+        },
+        {"tag": "children",
+        "patterns": ["What nutrition do children need", "do you have any guideline for children"],
+        "responses": ["In general, nutrition for kids is based on the same principles as nutrition for adults. Everyone needs the same types of nutrients such as vitamins, minerals, carbohydrates, protein and fat. Children, however, need different amounts of specific nutrients at different ages. For further information, please consult professional medical doctor!"],
+        "context_set": ""
+        },
+        {"tag": "side-effect",
+        "patterns": ["Will i get any side effect from taking supplement", "do supplement have side effect"],
+        "responses": ["You are most likely to have side effects from dietary supplements if you take them at high doses or instead of prescribed medicines, or if you take many different supplements. Please consult your medical doctor or nutritionist before taking dietary supplements"],
+        "context_set": ""
+        },
+        {"tag": "protein",
+        "patterns": ["what is protein"],
+        "responses": ["Proteins are needed in our diets for growth (especially important for children, teens and pregnant women) and to improve immune functions. They also play an important role in making essential hormones and enzymes, in tissue repair, preserving lean muscle mass, and supplying energy in times when carbohydrates are not available."],
+        "context_set": ""
+        },
+        {"tag": "carbohydrates",
+        "patterns": ["what is carbohydrates"],
+        "responses": ["Carbohydrates are referred to as energy-giving foods. They provide energy in the form of calories that the body needs to be able to work, and to support other functions. Carbohydrates are needed in large amounts by the body. Indeed, up to 65% of our energy comes from carbohydrates. They are the body's main source of fuel because they are easily converted into energy. This energy is usually in the form of glucose, which all tissues and cells in our bodies readily use."],
+        "context_set": ""
+        },
+        {"tag": "minerals",
+        "patterns": ["what is minerals"],
+        "responses": ["Minerals are the substances that people need to ensure the health and correct working of their soft tissues, fluids and their skeleton."],
+        "context_set": ""
+        },
+        {"tag": "fibre",
+        "patterns": ["what is fibre"],
+        "responses": ["Fibre is a mixture of different carbohydrates which are not digested like other nutrients but pass through the gut nearly unchanged."],
+        "context_set": ""
+        },
+        {"tag": "fats",
+        "patterns": ["what is fats"],
+        "responses": ["Fats and oils are concentrated sources of energy and so are important nutrients for young children who need a lot of energy-rich food. Fats can also make meals more tasty and satisfying. Fat is found in meat, chicken, milk products, butters, creams, avocado, cooking oils and fats, cheese, fish and ground nuts.Fats are classified into saturated and unsaturated fats. The classification is important to enable you to advise your community about which fats can be consumed with less risk to people's health. Saturated fats are not good for a person's health."],
+        "context_set": ""
+        }
+   ]
+}
